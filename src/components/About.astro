@@ -1,3 +1,12 @@
+---
+const stack = [
+  { area: "Backend", items: "Java, Spring Boot, microservices" },
+  { area: "APIs", items: "REST, OpenAPI" },
+  { area: "Data & tests", items: "Oracle Database, JUnit, Mockito" },
+  { area: "Tooling", items: "Maven, Git, Jenkins" },
+];
+---
+
 <section class="sec" id="about">
   <h2>About</h2>
   <div class="sec-body">
@@ -6,17 +15,32 @@
       keep the person at the other end of the API in mind while I do.
     </p>
     <dl class="facts2">
-      <div>
+      <div class="facts2-wide">
         <dt>Stack</dt>
-        <dd>Java, Spring Boot, microservices, REST, OpenAPI, Oracle Database, JUnit, Mockito, Maven, Git, Jenkins</dd>
+        <dd>
+          <div class="groups">
+            {stack.map((g) => (
+              <div>
+                <span>{g.area}</span>
+                {g.items}
+              </div>
+            ))}
+          </div>
+        </dd>
       </div>
       <div>
         <dt>Education</dt>
-        <dd>Higher Technician in Web Application Development, I.E.S Zaidín-Vergeles, 2022–2024. Grade 9 out of 10.</dd>
+        <dd class="lines">
+          <span>Higher Technician in Web Application Development</span>
+          <span class="muted">I.E.S Zaidín-Vergeles · 2022–2024 · Grade 9/10</span>
+        </dd>
       </div>
       <div>
         <dt>Languages</dt>
-        <dd>Spanish, native. English, professional working proficiency.</dd>
+        <dd class="lines">
+          <span>Spanish <span class="muted">· native</span></span>
+          <span>English <span class="muted">· professional</span></span>
+        </dd>
       </div>
     </dl>
   </div>

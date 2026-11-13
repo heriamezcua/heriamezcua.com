@@ -126,7 +126,13 @@ h1 span { display: block; color: var(--accent); }
 .job p { grid-column: 1 / -1; font-size: 16px; }
 .facts2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px 32px; }
 .facts2 div { display: grid; gap: 4px; align-content: start; }
-.facts2 dt, .k { font-family: var(--f-mono); font-size: 12px; color: var(--c-muted); }
+.facts2 dt { font-family: var(--f-mono); font-size: 14px; font-weight: 500; letter-spacing: .02em; text-transform: uppercase; color: var(--c-ink); }
+.facts2 .facts2-wide { grid-column: 1 / -1; }
+.groups { display: grid; gap: 10px; }
+.groups div { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 12px; }
+.groups span { font-family: var(--f-mono); font-size: 12.5px; color: var(--c-muted); padding-top: 3px; }
+.lines { display: grid; gap: 2px; }
+.lines .muted { font-size: 15px; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 12px 28px; font-size: 18px; }
 @media (max-width: 979px) {
   .nav { padding: 16px 16px 0; }
