@@ -1,0 +1,34 @@
+---
+const jobs = [
+  {
+    role: "Backend Software Engineer",
+    from: "Sep 2024",
+    to: "Present",
+    place: "FDS Spain, a DXC Technology Company · Madrid, hybrid",
+    text: "Backend development with Java and Spring Boot microservices. REST APIs documented with OpenAPI, tests with JUnit and Mockito, Oracle Database, and CI/CD with Maven, GitLab and Jenkins.",
+  },
+  {
+    role: "Trainee Software Developer",
+    from: "Mar 2024",
+    to: "Jun 2024",
+    place: "Euroinnova International Online Education · Granada",
+    text: "PHP and Laravel on the backend, JavaScript on the frontend, with Docker and Google Cloud Platform.",
+  },
+];
+---
+
+<section class="sec" id="experience">
+  <h2>Experience</h2>
+  <div class="sec-body">
+    {jobs.map((job) => (
+      <div class="job">
+        <h3>{job.role}</h3>
+        <span class="when">
+          {job.from} – {job.to === "Present" ? <span class="now">Present</span> : job.to}
+        </span>
+        <p class="muted">{job.place}</p>
+        <p>{job.text}</p>
+      </div>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,49 @@
+---
+const stats = [
+  { value: "34", label: "APIs published" },
+  { value: "Mar 2025", label: "first API live" },
+  { value: "100+", label: "subscribers on the featured API" },
+  { value: "100%", label: "service level on the featured API" },
+];
+const sample = [
+  "Oil Price API: WTI & Brent",
+  "ECB Reference Rates",
+  "European Electricity Prices",
+  "EU VAT Validator",
+  "VIN Decoder",
+  "Spanish Validation: DNI, NIE, IBAN",
+];
+---
+
+<section class="sec" id="projects">
+  <h2>Projects</h2>
+  <div class="sec-body">
+    <article class="project">
+      <h3>Synergic APIs</h3>
+      <p>
+        A catalogue of data APIs I design, build and run on my own, published on RapidAPI. I take public data that is
+        awkward to use, such as energy prices, reference exchange rates, vehicle records and ID validation, and serve it
+        as clean, documented REST APIs.
+      </p>
+      <div class="stats">
+        {stats.map((s) => (
+          <div class="stat">
+            <b>{s.value}</b>
+            <span>{s.label}</span>
+          </div>
+        ))}
+      </div>
+      <div class="featured">
+        <p>
+          <b>Featured: Crude Oil Prices API.</b> Real-time oil prices in US dollars with ISO 8601 timestamps. Live since
+          March 2025, with free and paid plans.
+        </p>
+      </div>
+      <ul class="chips" aria-label="Some of the APIs">
+        {sample.map((name) => <li>{name}</li>)}
+      </ul>
+      <p class="mono muted">Node.js · REST · JSON · RapidAPI</p>
+      <a class="link" href="https://rapidapi.com/user/synergicapis">View the catalogue on RapidAPI</a>
+    </article>
+  </div>
+</section>
