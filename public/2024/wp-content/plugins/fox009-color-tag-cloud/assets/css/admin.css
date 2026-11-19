@@ -1,0 +1,101 @@
+.fox009-color-tag-cloud span[class*='sty_']{
+	display: inline-block;
+	padding: 0.3rem 1rem;
+	margin: 0 0.5rem 0.5rem 0;
+}
+.fox009-color-tag-cloud span[class*='sty_bg_']{
+    background-color: #ccc;
+}
+.fox009-color-tag-cloud label.nowrap{
+	white-space: nowrap;
+}
+
+.fox009-color-tag-cloud .sty_bg_1{
+	border-radius: 1rem;
+}
+.fox009-color-tag-cloud .sty_bg_1_0{
+	border-radius: 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bg_1_1_1_0{
+	border-radius: 1rem 1rem 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bg_0{
+	border-radius: 0;
+}
+.fox009-color-tag-cloud span[class*='sty_bd_']{
+    border: 1px solid #ccc;
+}
+.fox009-color-tag-cloud span[class*='sty_bd_']:hover{
+    background-color: #ccc;
+	color:#fff;
+}
+.fox009-color-tag-cloud .sty_bd_1{
+	border-radius: 1rem;
+}
+.fox009-color-tag-cloud .sty_bd_1_0{
+	border-radius: 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bd_1_1_1_0{
+	border-radius: 1rem 1rem 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bd_0{
+	border-radius: 0;
+}
+.fox009-color-tag-cloud .sty_bd_05{
+	border-radius: 0.5rem;
+}
+.fox009-color-tag-cloud .ff_arial {
+    font-family: Arial,"Microsoft YaHei",SimHei,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_tahoma {
+    font-family: Tahoma,Helvetica,Arial,SimSun,sans-serif !important
+}
+
+.fox009-color-tag-cloud .ff_yahei {
+    font-family: "Microsoft YaHei",arial,tahoma,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_helvetica {
+    font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", Arial, sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_helvetica {
+    font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", Arial, sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_rockwell {
+    font-family: Rockwell, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_times {
+    font-family: Times, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_cambria {
+    font-family: Cambria, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_verdana {
+    font-family: Verdana, Lucida, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_open_sans {
+    font-family: "Open Sans", Helvetica, Arial,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .fw_lighter {
+    font-weight: lighter;
+}
+
+.fox009-color-tag-cloud .fw_normal {
+    font-weight: normal;
+}
+
+.fox009-color-tag-cloud .fw_bold {
+    font-weight: bold;
+}
+
+.fox009-color-tag-cloud .fw_bolder {
+    font-weight: bolder;
+}

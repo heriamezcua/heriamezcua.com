@@ -1,0 +1,560 @@
+.inline-row-action-summary {
+    display: block;
+    width: 100% !important;
+}
+
+#legal-page-create-selector {
+    display: none;
+}
+
+#legal-page-create-selector ul {
+    list-style-type: none;
+}
+
+ul.legal-pages-form-checkbox-group,
+ul.legal-pages-form-radio {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+.img-rounded {
+    border-radius: 3px;
+}
+
+
+
+
+
+
+.wpautoterms-container {
+
+}
+
+
+.wpautoterms-header {
+	display: flex;
+	padding: 15px 0;
+}
+.wpautoterms-header p {
+	margin: 0;
+}
+
+.wpautoterms-header .logo-container a {
+	display: block;
+}
+.wpautoterms-header .logo-image {
+	max-width: 150px;
+}
+
+
+
+.wpautoterms-page {
+
+}
+
+
+
+.wpautoterms-cards {
+	display: flex;
+	float: none;
+}
+.wpautoterms-card {
+    width: 300px;
+    margin: 1em 1em 0 0 !important;
+    background: none;
+    min-height: 180px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	position: relative;
+}
+.wpautoterms-card .inside {
+	padding: 15px;
+}
+.wpautoterms-card img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wpautoterms-nopadding {
+    padding: 0;
+}
+
+.wpautoterms-nomargin {
+    margin: 0;
+}
+
+.wpautoterms-topalign {
+    vertical-align: top;
+}
+
+.wpautoterms-fullwidth {
+    width: 100%;
+}
+
+.wpautoterms-options-header,
+.wpautoterms-options-box {
+    width: 300px;
+    float: left;
+    margin: 1em 1em 0 0 !important;
+    background: none;
+}
+
+.wpautoterms-options-header {
+    border: 0;
+    box-shadow: none;
+}
+
+.wpautoterms-options-header h3 {
+    padding: 8px 0;
+    margin: 0;
+}
+
+
+
+.wpautoterms-options-box {
+    min-height: 180px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+		position: relative;
+}
+
+.wpautoterms-options-box.wpautoterms-paid {
+    background-color: beige;
+}
+
+.wpautoterms-options-box h3 {
+    padding: 8px 12px;
+    margin: 0;
+}
+
+.wpautoterms-options-box .inside {
+    padding: 0 12px;
+}
+
+.wpautoterms-options-box .box-status {
+    color: #000;
+}
+
+.wpautoterms-options-box .box-status.enabled {
+    color: green;
+}
+
+.wpautoterms-options-box .box-status.disabled {
+    color: #888;
+}
+
+.wpautoterms-box-enable-button {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+}
+
+.wpautoterms-box-configure-button {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+}
+
+.wpautoterms-box-page-submit {
+    float: left;
+}
+
+.wpautoterms-box-page-back {
+    float: left;
+    padding: 5px 0 0 20px
+}
+
+.wpautoterms-hidden {
+    display: none;
+}
+
+.wpautoterms-options-select-combo .inside {
+    padding: 4px;
+}
+
+.wpautoterms-option-required {
+    color: red;
+}
+
+.wpautoterms-form-errors {
+    color: red;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.wpautoterms-button-disabled {
+    pointer-events: none;
+    color: lightgray !important;
+}
+
+.wpautoterms-option-info {
+    padding: 0;
+}
+
+.wpautoterms-pull-right {
+    float: right;
+}
+
+.wpautoterms-pull-left {
+    float: left;
+}
+
+.wpautoterms-clear {
+    clear: both;
+}
+
+.wpautoterms-wrapper {
+    display: inline-block;
+}
+
+.wpautoterms-resize-both {
+    resize: both;
+}
+
+.wpautoterms-flex {
+    display: flex;
+}
+
+.wpautoterms-w-3 {
+    flex: 3;
+}
+
+.wpautoterms-w-9 {
+    flex: 9;
+}
+
+.wpautoterms-pad-left {
+    padding-left: 1em;
+}
+
+.wpautoterms-bold {
+    font-weight: 600;
+}
+
+.cm-matchhighlight {
+    background-color: lightgreen
+}
+
+.CodeMirror-selection-highlight-scrollbar {
+    background-color: green
+}
+
+.CodeMirror {
+    resize: both;
+}
+
+.wpautoterms-list {
+    padding: 0 0 0 20px;
+}
+
+.wpautoterms-list li {
+    list-style-type: square;
+}
+
+.wpautoterms-custom-css-available-selectors {
+    padding: 20px;
+    margin-top: -5px;
+    background: #EEE;
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .07);
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-list {
+    margin-bottom: 0;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-list li {
+    line-height: 25px;
+    margin: 0 0 10px 0;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-selector-type {
+    display: block;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-selector {
+    padding: 2px 4px;
+    background: #FFF;
+    border-radius: 5px;
+}
+
+#wpautoterms_links_custom_css,
+#wpautoterms_update_notice_custom_css,
+#wpautoterms_cookies_notice_custom_css,
+#wpautoterms_endorsements_custom_css {
+    width: 100%;
+    min-height: 200px;
+}
+
+.wpautoterms-list {
+    padding: 0 0 0 20px;
+}
+
+.wpautoterms-list li {
+    list-style-type: square;
+}
+
+.wpautoterms-custom-css-available-selectors {
+    padding: 20px;
+    margin-top: -5px;
+    background: #EEE;
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .07);
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-list {
+    margin-bottom: 0;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-list li {
+    line-height: 25px;
+    margin: 0 0 10px 0;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-selector-type {
+    display: block;
+}
+
+.wpautoterms-custom-css-available-selectors .wpautoterms-selector {
+    padding: 2px 4px;
+    background: #FFF;
+    border-radius: 5px;
+}
+
+#wpautoterms_links_custom_css,
+#wpautoterms_update_notice_custom_css,
+#wpautoterms_cookies_notice_custom_css,
+#wpautoterms_endorsements_custom_css {
+    width: 100%;
+    min-height: 200px;
+}
+
+.wpautoterms-review-banner {
+    padding: 30px;
+}
+
+.wpautoterms-review-banner h4 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.wpautoterms-review-banner p {
+    font-size: 16px;
+}
+
+.wpautoterms-review-banner p:last-child {
+    margin: 0;
+}
+
+.wpautoterms-review-banner .button-primary {
+    font-size: 16px;
+}
+
+.wpautoterms-is-dismissible {
+    padding-right: 38px;
+    position: relative;
+}
+
+.wpautoterms-dismiss-icon:before {
+    background: none;
+    color: #72777c;
+    content: "\f153";
+    display: inline-block;
+    font: normal 16px/20px dashicons;
+    text-align: center;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.wpautoterms-dismiss-button {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: none;
+    color: #72777c;
+    cursor: pointer;
+}
+
+.wpautoterms-dismiss-button:hover .wpautoterms-dismiss-icon:before,
+.wpautoterms-dismiss-button:active .wpautoterms-dismiss-icon:before,
+.wpautoterms-dismiss-button:focus .wpautoterms-dismiss-icon:before {
+    color: #c00;
+}
+
+.wpautoterms-dismiss-button:hover,
+.wpautoterms-dismiss-button:active,
+.wpautoterms-dismiss-button:focus {
+    color: #933;
+}
+
+.wpautoterms-dismiss-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, .8);
+}
+
+.wpautoterms-sortable-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.wpautoterms-sortable-list a {
+    cursor: pointer;
+}
+
+.wpautoterms-sortable-list li {
+    cursor: move;
+    background: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .07);
+    display: block;
+    padding: 10px;
+    position: relative;
+    display: list-item;
+}
+
+.wpautoterms-sortable-list li.active {
+    background-color: #F9F9F9;
+    color: #000;
+}
+
+
+.wpautoterms-sortable-list li.active a {
+    color: #F9F9F9;
+}
+
+#wpautoterms_request_transfer, #wpautoterms_request_transfer_address {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wpautoterms-transfer-entry {
+    padding-top: 0;
+    padding-bottom: 4px;
+}
+
+.wpautoterms-transfer-entry label {
+    display: inline-block;
+    width: 12em;
+}
+
+#wpautoterms_transfer, #wpautoterms_transfer_address {
+    line-height: 2.3;
+}
+
+.wpautoterms-transfer-address .button {
+  margin: 15px 0 0 0;
+}
+
+
+
+
+.customization-page .cc-settings-preview {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.customization-page .cc-settings-preview .cc-settings {
+    width: 700px;
+}
+
+
+.customization-page .cc-settings-preview .cc-preview-container {
+    width: 550px;
+    padding: 20px;
+}
+
+.customization-page .cc-settings-preview .cc-preview {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.customization-page .cc-settings-preview .cc-preview .cc-preview-head {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.customization-page .cc-settings-preview .cc-preview iframe {
+    width: 100%;
+    height: 800px;
+}
+
+span#wpautoterms_copy_site_information {
+    color: #2271b1;
+    border-bottom: 1px dashed #2271b1;
+    cursor: pointer;
+}
+
+span#wpautoterms_copy_site_information:hover {
+    color: #135e96;
+    border-color: #135e96;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mr-1 {
+    margin-right: 5px !important;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake-now {
+    animation: shake .2s;
+    animation-timing-function: ease-in-out;
+}
+
+.php-error #adminmenuback, .php-error #adminmenuwrap {
+    margin-top: 0;
+}

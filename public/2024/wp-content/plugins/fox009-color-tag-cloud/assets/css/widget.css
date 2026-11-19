@@ -1,0 +1,352 @@
+@keyframes updown {
+    10%, 90% {
+        transform: translate3d(0, -1px, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(0, 2px, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(0, -4px, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(0, 4px, 0);
+    }
+}
+@keyframes leftright {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+@keyframes scalex {
+    10%, 90% {
+        transform: scaleX(0.6);
+    }
+
+    20%, 80% {
+        transform: scaleX(0.2);
+    }
+
+    30%, 70% {
+        transform: scaleX(-0.2);
+    }
+
+    40%, 60% {
+        transform: scaleX(-0.6);
+    }
+	
+    50% {
+        transform: scaleX(-1);
+    }
+}
+@keyframes scaley {
+    10%, 90% {
+        transform: scaleY(0.6);
+    }
+
+    20%, 80% {
+        transform: scaleY(0.2);
+    }
+
+    30%, 70% {
+        transform: scaleY(-0.2);
+    }
+
+    40%, 60% {
+        transform: scaleY(-0.6);
+    }
+	
+    50% {
+        transform: scaleY(-1);
+    }
+}
+.fox009-color-tag-cloud {
+    margin: 10px 0;
+}
+.fox009-color-tag-cloud-container{
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fox009-color-tag-cloud .tag-cloud-link{
+    padding: 0.5rem 1rem !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    position: relative !important;
+    line-height: normal;
+	text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	flex-grow: 1;
+}
+
+.fox009-color-tag-cloud .tag-cloud-link:hover {
+    filter: alpha(opacity=80) !important;
+    opacity: 0.8 !important;
+}
+.fox009-color-tag-cloud .tag-cloud-link > span{
+	display:block;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: center;
+    vertical-align: middle;
+}
+.fox009-color-tag-cloud .tag-cloud-link > span > i{
+	font-style:normal;
+}
+.fox009-color-tag-cloud a[class*='sty_']{
+	display: inline-block;
+	padding: 0.3rem 1rem;
+	margin: 0 0.5rem 0.5rem 0;
+}
+.fox009-color-tag-cloud a[class*='sty_bg_']{
+    background-color: #ccc;
+}
+.fox009-color-tag-cloud .sty_bg_1{
+	border-radius: 1rem;
+}
+.fox009-color-tag-cloud .sty_bg_1_0{
+	border-radius: 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bg_1_1_1_0{
+	border-radius: 1rem 1rem 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bg_0{
+	border-radius: 0;
+}
+.fox009-color-tag-cloud a[class*='sty_bd_']{
+    border: 2px solid #ccc;
+}
+.fox009-color-tag-cloud a[class*='sty_bd_']:hover{
+	color:#fff;
+}
+.fox009-color-tag-cloud .sty_bd_1{
+	border-radius: 1rem;
+}
+.fox009-color-tag-cloud .sty_bd_1_0{
+	border-radius: 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bd_1_1_1_0{
+	border-radius: 1rem 1rem 1rem 0;
+}
+.fox009-color-tag-cloud .sty_bd_0{
+	border-radius: 0;
+}
+.fox009-color-tag-cloud .sty_bd_05{
+	border-radius: 0.5rem;
+}
+.fox009-color-tag-cloud .bs_top_left {
+    box-shadow: -2px -2px 0px 0px #88888888;
+}
+.fox009-color-tag-cloud .bs_top_right {
+    box-shadow: -2px 2px 0px 0px #88888888;
+}
+.fox009-color-tag-cloud .bs_bottom_left {
+    box-shadow: 2px -2px 0px 0px #88888888;
+}
+.fox009-color-tag-cloud .bs_bottom_right {
+    box-shadow: 2px 2px 0px 0px #88888888;
+}
+.fox009-color-tag-cloud .bs_around {
+    box-shadow: 0px 0px 2px 2px #88888888;
+}
+
+.fox009-color-tag-cloud .ts_top_left {
+    text-shadow: -1px -1px 0px #fff8;
+}
+.fox009-color-tag-cloud .ts_top_right {
+    text-shadow: -1px 1px 0px #fff8;
+}
+.fox009-color-tag-cloud .ts_bottom_left {
+    text-shadow: 1px -1px 0px #fff8;
+}
+.fox009-color-tag-cloud .ts_bottom_right {
+	text-shadow: 1px 1px 0px #fff8;
+}
+.fox009-color-tag-cloud .ts_around {
+    text-shadow: 0px 0px 2px #fff;
+}
+.fox009-color-tag-cloud .ts_top_left[class*='sty_bd_'] {
+    text-shadow: -1px -1px 0px #0008;
+}
+.fox009-color-tag-cloud .ts_top_right[class*='sty_bd_'] {
+    text-shadow: -1px 1px 0px #0008;
+}
+.fox009-color-tag-cloud .ts_bottom_left[class*='sty_bd_'] {
+    text-shadow: 1px -1px 0px #0008;
+}
+.fox009-color-tag-cloud .ts_bottom_right[class*='sty_bd_'] {
+	text-shadow: 1px 1px 0px #0008;
+}
+.fox009-color-tag-cloud .ts_around[class*='sty_bd_'] {
+    text-shadow: 0px 0px 2px #0008;
+}
+.fox009-color-tag-cloud .tag-cloud-link{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.fox009-color-tag-cloud .tag-cloud-link:hover,
+.fox009-color-tag-cloud .tag-cloud-link:hover span{
+	animation-delay: 0s;
+	animation-duration: 0.82s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+    backface-visibility: hidden;
+    perspective: 400px;
+}
+.fox009-color-tag-cloud .ge_center{
+	background-image:url(https://heriamezcua.com/2024/wp-content/plugins/fox009-color-tag-cloud/assets/images/gradient_center.png);
+}
+.fox009-color-tag-cloud .ge_left_right{
+	background-image:url(https://heriamezcua.com/2024/wp-content/plugins/fox009-color-tag-cloud/assets/images/gradient_left_right.png);
+}
+.fox009-color-tag-cloud .ge_top_bottom{
+	background-image:url(https://heriamezcua.com/2024/wp-content/plugins/fox009-color-tag-cloud/assets/images/gradient_top_bottom.png);
+}
+.fox009-color-tag-cloud .ani_updown:hover {
+    transform: translate3d(0, 0, 0);
+	animation-name:updown;
+}
+.fox009-color-tag-cloud .ani_leftright:hover {
+	transform: translate3d(0, 0, 0);
+	animation-name:leftright;
+}
+.fox009-color-tag-cloud .ani_scalex:hover span{
+	transform: scaleX(1);
+	animation-name:scalex;
+}
+.fox009-color-tag-cloud .ani_scaley:hover span{
+	transform: scaleY(1);
+	animation-name:scaley;
+}
+.fox009-color-tag-cloud .extra_tag_hide {
+    display: none !important;
+}
+
+.fox009-color-tag-cloud .extra_tag_show {
+    display: inline-block !important;
+}
+
+.fox009-color-tag-cloud .tag-show-more::after {
+    content: '\25bc';
+}
+
+.fox009-color-tag-cloud .tag-show-less::after {
+    content: '\25b2';
+}
+
+.fox009-color-tag-cloud .sty_radius_1{
+	border-radius: 1rem;
+}
+.fox009-color-tag-cloud .sty_radius_1_0{
+	border-radius: 1rem 0;
+}
+.fox009-color-tag-cloud .sty_radius_0_0_0_1{
+	border-radius: 0 0 0 1rem;
+}
+.fox009-color-tag-cloud .ff_arial {
+    font-family: Arial,"Microsoft YaHei",SimHei,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_tahoma {
+    font-family: Tahoma,Helvetica,Arial,SimSun,sans-serif !important
+}
+
+.fox009-color-tag-cloud .ff_yahei {
+    font-family: "Microsoft YaHei",arial,tahoma,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_helvetica {
+    font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", Arial, sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_helvetica {
+    font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", Arial, sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_rockwell {
+    font-family: Rockwell, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_times {
+    font-family: Times, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_cambria {
+    font-family: Cambria, Georgia, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_verdana {
+    font-family: Verdana, Lucida, SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .ff_open_sans {
+    font-family: "Open Sans", Helvetica, Arial,SimSun,sans-serif !important;
+}
+
+.fox009-color-tag-cloud .fw_lighter {
+    font-weight: lighter;
+}
+.fox009-color-tag-cloud .fw_normal {
+    font-weight: normal;
+}
+.fox009-color-tag-cloud .fw_bold {
+    font-weight: bold;
+}
+.fox009-color-tag-cloud .fw_bolder {
+    font-weight: bolder;
+}
+.fox009-color-tag-cloud .tt_none {
+    text-transform: none;
+}
+.fox009-color-tag-cloud .tt_capitalize {
+    text-transform: capitalize;
+}
+.fox009-color-tag-cloud .tt_uppercase {
+    text-transform: uppercase;
+}
+.fox009-color-tag-cloud .tt_lowercase {
+    text-transform: lowercase;
+}
+.fox009-color-tag-cloud .column-none{
+    margin: 3px !important;
+}
+.fox009-color-tag-cloud .column-one {
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+.fox009-color-tag-cloud .column-two {
+    width: 40%;
+    margin: 0 0.5rem 0.5rem 0;
+    text-align: center;
+}
+.fox009-color-tag-cloud .column-three {
+    width: 30%;
+    margin: 0 0.5rem 0.5rem 0;
+    text-align: center;
+}

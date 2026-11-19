@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Bold.eot');
+    src: local('CoFo Sans Bold'), local('CoFoSans-Bold'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Bold.eot#iefix') format('embedded-opentype'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Bold.woff2') format('woff2'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Bold.woff') format('woff'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Regular.eot');
+    src: local('CoFo Sans'), local('CoFoSans-Regular'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Regular.eot#iefix') format('embedded-opentype'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Regular.woff2') format('woff2'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Regular.woff') format('woff'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Medium.eot');
+    src: local('CoFo Sans Medium'), local('CoFoSans-Medium'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Medium.eot#iefix') format('embedded-opentype'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Medium.woff2') format('woff2'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Medium.woff') format('woff'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoFo Robert';
+    src: url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoRobert-RegularItalic.eot');
+    src: local('CoFo Robert Italic'), local('CoFoRobert-RegularItalic'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoRobert-RegularItalic.eot#iefix') format('embedded-opentype'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoRobert-RegularItalic.woff2') format('woff2'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoRobert-RegularItalic.woff') format('woff'),
+        url('https://heriamezcua.com/2024/wp-content/plugins/limit-login-attempts-reloaded/assets/css/fonts/CoFoRobert-RegularItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
